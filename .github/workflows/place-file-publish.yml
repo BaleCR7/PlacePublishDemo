@@ -5,6 +5,7 @@ on:
             - master
 jobs:
   API-Key-GH-Action:
+    runs-on: ubuntu-latest
     steps:
         - name: Check out repository code
           uses: actions/checkout@v2
